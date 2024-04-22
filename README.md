@@ -4,7 +4,6 @@
 ###  ROLL NO : 212223100049
 ###  DEPARTMENT: CSE (Cyber Security)
 
-# Experiment-no-6-DC-Motor-Speed-Control-Using-Arduino
 ### AIM : To control the speed and the direction of a DC motor using L293D driver ic( H- bridge)
 
 ### Components Required:
