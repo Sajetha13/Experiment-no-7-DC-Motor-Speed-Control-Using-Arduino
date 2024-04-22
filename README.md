@@ -68,8 +68,6 @@ void loop()
 
 
 
-![image](https://github.com/vasanthkumarch/Experiment-no-7-DC-Motor-Speed-Control-Using-Arduino/assets/36288975/67ed339f-8011-4acc-b793-e5d4930639c7)
-
 
 
 ### RESULTS AND DISCUSSION 
