@@ -5,7 +5,8 @@
 ##  ROLL NO : 212223100049
 ##  DEPARTMENT: CSE (Cyber Security)
 
-## AIM : To control the speed and the direction of a DC motor using L293D driver ic( H- bridge)
+## AIM : 
+To control the speed and the direction of a DC motor using L293D driver ic( H- bridge)
 
 ## Components Required:
 •	Arduino UNO board
