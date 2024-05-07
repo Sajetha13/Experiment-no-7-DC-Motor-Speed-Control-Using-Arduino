@@ -1,12 +1,13 @@
 # Experiment-no-6-DC-Motor-Speed-Control-Using-Arduino
-###  DATE: 5/4/2024
-###  NAME: S.Sajetha
-###  ROLL NO : 212223100049
-###  DEPARTMENT: CSE (Cyber Security)
 
-### AIM : To control the speed and the direction of a DC motor using L293D driver ic( H- bridge)
+##  DATE: 5/4/2024
+##  NAME: S.Sajetha
+##  ROLL NO : 212223100049
+##  DEPARTMENT: CSE (Cyber Security)
 
-### Components Required:
+## AIM : To control the speed and the direction of a DC motor using L293D driver ic( H- bridge)
+
+## Components Required:
 •	Arduino UNO board
 •	L293D driver
 •	12V DC motor
@@ -15,7 +16,7 @@
 •	12V source
 •	Breadboard
 •	Jumper wires
-### THEORY 
+## THEORY 
 The L293D quadruple half-H drivers chip allows us to drive 2 motors in both directions, with two PWM outputs from the Arduino we can easily control the speed as well as the direction of rotation of one DC motor. (PWM: Pulse Width Modulation).
 Arduino DC motor control circuit:
 Project circuit schematic diagram is the one below.
@@ -30,7 +31,7 @@ TABLE-01 EXITATION TABLE FOR H BRIDGE
 
 As shown in the circuit diagram we need only 3 Arduino terminal pins, pin 8 is for the push button which toggles the motor direction of rotation. Pins 9 and 10 are PWM signal outputs, at any time there is only 1 active PWM, this allows us to control the direction as well as the speed by varying the duty cycle of the PWM signal. The active PWM pin decides the motor direction of rotation (one at a time, the other output is logic 0).
 
-### PROGRAM 
+## PROGRAM 
 ```
 int in2=6;
 int en=3;
@@ -52,11 +53,11 @@ void loop()
 }
 
 ```
-### OUTPUT
-#### Circuit Diagram
+## OUTPUT
+### Circuit Diagram
 ![image](https://github.com/Sajetha13/Experiment-no-7-DC-Motor-Speed-Control-Using-Arduino/assets/138849316/c06b60a4-a2d6-4042-9a28-2fd923349c3f)
 
-#### Schematic Diagram
+### Schematic Diagram
 ![image](https://github.com/Sajetha13/Experiment-no-7-DC-Motor-Speed-Control-Using-Arduino/assets/138849316/bd96db88-2c8e-4087-8635-a3a1b050b0f0)
 
 
@@ -70,6 +71,6 @@ void loop()
 
 
 
-### RESULTS AND DISCUSSION 
+## RESULTS AND DISCUSSION 
 Thus the speed and the direction of a DC motor using L293D driver ic(H-bridge) is controlled.
 
